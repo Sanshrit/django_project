@@ -1,0 +1,129 @@
+/* General Body Styling */
+body {
+  background: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text for readability */
+  margin-top: 5rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #f5f5f5; /* Bright headings for visibility */
+}
+
+/* Lists */
+ul {
+  margin: 0;
+}
+
+/* Navbar */
+.bg-steel {
+  background-color: #1f2933; /* Darker navbar background */
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #b0bec5; /* Muted text for navbar links */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff; /* Bright white on hover */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+  color: #ffffff; /* Ensure active link stands out */
+}
+
+/* Content Section */
+.content-section {
+  background: #1e1e1e; /* Slightly lighter than body background */
+  padding: 10px 20px;
+  border: 1px solid #333333; /* Subtle border for section */
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/* Article Title */
+.article-title {
+  color: #e0e0e0; /* Light text */
+}
+
+a.article-title:hover {
+  color: #4fc3f7; /* Light blue hover */
+  text-decoration: none;
+}
+
+/* Article Content */
+.article-content {
+  white-space: pre-line;
+  color: #bdbdbd; /* Slightly muted text */
+}
+
+/* Article Image */
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+  border-radius: 5px; /* Optional for smoother edges */
+}
+
+/* Article Metadata */
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #2c2c2c; /* Subtle bottom border */
+  color: #9e9e9e; /* Slightly lighter metadata text */
+}
+
+.article-metadata a {
+  color: #80cbc4; /* Teal accent */
+}
+
+.article-metadata a:hover {
+  color: #ffffff; /* White on hover */
+  text-decoration: none;
+}
+
+/* Article SVG */
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  fill: #bdbdbd; /* Light gray icons */
+}
+
+/* Account Image */
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%; /* Circular profile picture */
+  border: 2px solid #444444; /* Border for clarity */
+}
+
+/* Account Heading */
+.account-heading {
+  font-size: 2.5rem;
+  color: #ffffff; /* White text */
+}
+
+.content-section h3 {
+  color: #ffffff; /* White heading */
+}
+
+/* Sidebar List Group Items */
+.list-group-item {
+  background: #2c2c2c; /* Darker background for list items */
+  color: #e0e0e0; /* Light text for readability */
+  border: 1px solid #444444; /* Subtle border between items */
+}
+
+.list-group-item:hover {
+  background: #3a3a3a; /* Slightly lighter background on hover */
+  color: #ffffff; /* Bright text on hover */
+}
+
+/* Sidebar Text */
+.text-muted {
+  color: #bdbdbd !important; /* Lighter muted text */
+}
